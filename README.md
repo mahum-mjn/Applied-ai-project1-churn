@@ -54,6 +54,3 @@ Customer churn prediction using machine learning
 
 ---
 
-## 👤 Author
-* **Mahum** (BS 7th Semester, Department of Electronics)  
-* **Course:** Introduction to Applied AI | Instructor: Dr. Faiz Ahmed
