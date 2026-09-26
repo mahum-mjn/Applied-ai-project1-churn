@@ -14,29 +14,42 @@ Customer churn prediction using machine learning
 * **Live Interactive Notebook:** [Run on Kaggle](https://www.kaggle.com/code/mahumjunaid/week-1-customer-churn-eda)
 * **Local Setup:** `pip install pandas numpy matplotlib seaborn`
 
- # 📊 Customer Churn Prediction & ML Model Evaluation (Lab 2)
+# 🚀 End-to-End Customer Churn Analytics & ML Modeling
 
-## **Project Overview**
-This project explores end-to-end machine learning workflows for customer churn prediction using a telecommunications dataset. Built as part of the *Introduction to Applied AI* course, this notebook covers everything from rigorous data preprocessing and pipeline construction to advanced model tuning, cost-sensitive threshold optimization, and model interpretability.
-
----
-
-## **Key Highlights & Results**
-- **Baseline Model:** Achieved an accuracy of `0.735`, but yielded a recall of `0.000`, proving that raw accuracy fails on imbalanced data.
-- **Best Models:** **Logistic Regression** and **Random Forest** tied for the highest test performance with an **AUC of 0.842** and an **accuracy of 0.807**.
-- **Cost-Optimized Threshold:** Shifted the classification threshold from the default `0.5` down to **`0.15`** based on business cost trade-offs (where a False Negative is significantly more costly than a False Positive).
-- **Class Imbalance:** Evaluated `class_weight='balanced'` in Logistic Regression, boosting recall from `0.567` up to `0.781`.
-- **Feature Engineering:** Tested custom domain features (service counts, tenure flags, price jumps), discovering that tree ensembles natively capture these interactions without inflating test AUC.
+> **Repository Focus:** Portfolio project tracking the complete machine learning lifecycle—from exploratory data analysis to advanced predictive modeling, cost-sensitive threshold tuning, and model interpretability.
 
 ---
 
-## **Tech Stack & Libraries**
-* **Language:** Python
-* **Libraries:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, Imbalanced-Learn
-* **Platform:** Kaggle Notebook
+## 📂 Project Structure & Milestones
+
+* **`week-1-customer-churn-eda.ipynb`** → Exploratory data analysis, univariate/bivariate visualizations, correlation matrices, and data cleaning.
+* **`week-2-building-ml-models.ipynb`** → Feature engineering, Scikit-Learn pipelines, baseline creation, model training (Logistic Regression, Decision Trees, Random Forests), evaluation metrics, and threshold optimization.
 
 ---
 
-## **Author**
-* **Mahum** (BS 7th Semester, Department of Electronics)
-* **Course:** Introduction to Applied AI (Instructor: Dr. Faiz Ahmed)
+## 📈 Week 2: Key Modeling Results & Insights
+
+### **1. Baseline vs. Advanced Models**
+* **Baseline Model (DummyClassifier):** Achieved `0.735` accuracy by predicting all customers stay, but resulted in a **`0.000` recall**, demonstrating why accuracy is a misleading metric for imbalanced data.
+* **Top Performers:** **Logistic Regression** and **Random Forest** achieved the highest overall performance with an **AUC of 0.842** and test accuracy of **0.807**.
+
+### **2. Strategic Cost-Sensitive Thresholding**
+* Instead of defaulting to the standard `0.5` classification cutoff, cost-matrix analysis dictated shifting the threshold down to **`0.15`**. 
+* **Business Rationale:** Since missing a churner (False Negative) carries a much higher business cost than a False Alarm (False Positive), optimizing the threshold successfully maximizes true churn capture.
+
+### **3. Class Imbalance & Feature Engineering**
+* **Balanced Weights:** Utilizing `class_weight='balanced'` in Logistic Regression dramatically improved minority class recovery, lifting recall from `0.567` up to `0.781`.
+* **Engineered Features:** Created customized service-count and contract-risk flags; while tree-based models natively handled these feature interactions, the AUC profile remained stable and robust.
+
+---
+
+## 🛠️ Tech Stack & Dependencies
+* **Programming Language:** Python 3.x
+* **Core Libraries:** `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `imbalanced-learn`
+* **Execution Environment:** Kaggle Notebooks
+
+---
+
+## 👤 Author
+* **Mahum** (BS 7th Semester, Department of Electronics)  
+* **Course:** Introduction to Applied AI | Instructor: Dr. Faiz Ahmed
