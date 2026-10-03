@@ -1,11 +1,5 @@
 # Applied AI Project 1: Customer Churn Prediction & Optimization
 
-## Student Information
-* **Name:** Mahum Junaid
-* **Course:** Introduction to Applied AI (BS 7th Semester, Department of Electronics)
-* **Instructor:** Dr. Faiz Ahmed
-* **Dataset:** Telco Customer Churn (Kaggle, 7,043 customers, 21 features)
-
 # Customer-churn-prediction
 Customer churn prediction using machine learning
 
