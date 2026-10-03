@@ -1,6 +1,5 @@
 # Applied AI Project 1: Customer Churn Prediction & Optimization
 
-# Customer-churn-prediction
 Customer churn prediction using machine learning
 
 ## 🔗 Live Interactive Notebooks
