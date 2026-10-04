@@ -5,7 +5,7 @@ Customer churn prediction using machine learning
 ## 🔗 Live Interactive Notebooks
 * **Week 1 EDA Notebook:** [View & Run on Kaggle](https://www.kaggle.com/code/mahumjunaid/week-1-customer-churn-eda)
 * **Week 2 Modeling Notebook:** [View & Run on Kaggle](https://www.kaggle.com/code/mahumjunaid/week-2-building-ml-models?scriptVersionId=352934988)
-* **Week 3 Optimization Notebook:** [Local/Kaggle Execution ([`week3-optimization.ipynb`](https://www.kaggle.com/code/mahumjunaid/week-3-model-optimization?scriptVersionId=354864326))]
+* **Week 3 Optimization Notebook:** [View & Run on Kaggle ([`week3-optimization.ipynb`](https://www.kaggle.com/code/mahumjunaid/week-3-model-optimization#Lab-3:-Model-Optimization,-Unsupervised-Learning-&-Dimensionality-Reduction))]
 ---
 
 ## 📂 Project Structure & Milestones
