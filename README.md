@@ -7,7 +7,7 @@ An end-to-end machine learning and applied AI project tracking the complete life
 ## 🔗 Live Links & Interactive Notebooks
 - **Week 1 EDA Notebook:**  [View & Run on Kaggle](https://www.kaggle.com/code/mahumjunaid/week-1-customer-churn-eda)
 - **Week 2 Modeling Notebook:** [View & Run on Kaggle](https://www.kaggle.com/code/mahumjunaid/week-2-building-ml-models?scriptVersionId=352934988)
-- **Week 3 Optimization Notebook:**  [View & Run on Kaggle ([`week3-optimization.ipynb`]([https://www.kaggle.com/code/mahumjunaid/week-3-model-optimization#Lab-3:-Model-Optimization,-Unsupervised-Learning-&-Dimensionality-Reduction](https://www.kaggle.com/code/mahumjunaid/week-3-model-optimization/notebook))]
+- **Week 3 Optimization Notebook:**  [View & Run on Kaggle ([`week3-optimization.ipynb`](https://www.kaggle.com/code/mahumjunaid/week-3-model-optimization/notebook))
 - **Week 4 Deployment App:** [Try the Live Web App](https://churn-risk-advisor-inrvjcl5wdsnferw2nziyx.streamlit.app)
 - **Production Repository:** [mahum-mjn/churn-risk-advisor](https://github.com/mahum-mjn/churn-risk-advisor)
 
